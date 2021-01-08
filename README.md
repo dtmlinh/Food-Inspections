@@ -83,7 +83,7 @@ While the server is running, you can send GET and POST requests to the server by
 
 - `server.py`: contains functions for the main web/app service
 - `db.py`: contains the data access object/layer that will interface with the DBMS
-- `schema\create.sql` and `schema\drop.sql`: sql codes to initialize an empty DB
+- `schema/create.sql` and `schema/drop.sql`: sql codes to initialize an empty DB
 - `match_records.py`: contains helper functions for calculating text edit distances and creating a linear model for determining record matches for use in `db.py`
 
 2. directory `client`: contains helper scripts to use the web service
